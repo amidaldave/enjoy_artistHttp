@@ -1,0 +1,11 @@
+
+  {    
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "database": "enjoy_artist",
+    "entities": ["dist/**/*.entity{.ts,.js}","node_modules/nestjs-admin/**/*.entity.js"],
+    "synchronize": false
+  }
